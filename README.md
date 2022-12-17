@@ -1,2 +1,2 @@
 # CMake
-A Simple CMake Test Demo.
+A Demo Project which builds 'libWxdut.so' for Android and builds 'wxdut.framework' for iOS using CMake.
