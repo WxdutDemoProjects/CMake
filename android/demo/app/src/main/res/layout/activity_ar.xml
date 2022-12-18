@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true">
+
+    <android.opengl.GLSurfaceView
+        android:id="@+id/gl_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    <!--        android:layout_marginLeft="20dp"-->
+    <TextView
+        android:id="@+id/info_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@android:color/transparent"
+        android:padding="10dp"
+        android:rotationX="0"
+        android:textSize="10sp" />
+
+<!--    android:layout_centerHorizontal="true"-->
+    <Button
+        android:id="@+id/reset_btn"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="60dp"
+        android:background="@android:color/transparent"
+        android:text="重置平面"
+        android:textColor="@color/white" />
+
+</RelativeLayout>
